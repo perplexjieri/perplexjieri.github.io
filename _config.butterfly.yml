@@ -1,5 +1,8 @@
 favicon: /img/favicon.ico
 
+default_top_img: /img/theme-cover.png
+index_img: /img/theme-cover.png
+
 aside:
   card_author:
     button:
