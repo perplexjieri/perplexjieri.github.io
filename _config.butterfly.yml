@@ -1,0 +1,8 @@
+favicon: /img/favicon.ico
+
+aside:
+  card_author:
+    button:
+      enable: false
+  card_announcement:
+    enable: false
