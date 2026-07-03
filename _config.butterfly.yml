@@ -27,7 +27,7 @@ subtitle:
   enable: true
   effect: true
   sub:
-    - never forget your begin
+    - never forget your beginning
 
 inject:
   head:
