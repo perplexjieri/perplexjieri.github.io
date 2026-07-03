@@ -1,8 +1,8 @@
----
+﻿---
 title: 你好，世界
 description: 这是博客上线后的第一篇文章，用来记录建站完成状态和后续更新方向。
-cover: /img/article-bg.png
-top_img: /img/article-bg.png
+cover: /img/site-cover.jpg
+top_img: /img/site-cover.jpg
 tags:
   - 赛博日志
   - 建站
@@ -46,3 +46,4 @@ git add .
 git commit -m "更新文章"
 git push
 ```
+

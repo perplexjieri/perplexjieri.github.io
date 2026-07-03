@@ -37,3 +37,4 @@ top_img: /img/article-bg.png
 - 控制 `tcache_perthread_struct` 从而控制 counts 实现绕过 tcache 。
 - 
 每个 thread 都会维护一个 `tcache_perthread_struct` ，它是整个 `tcache` 的管理结构，一共有 `TCACHE_MAX_BINS` 个计数器和 `TCACHE_MAX_BINS` 项 `tcache_entry`。这个结构在 `tcache_init` 函数中被初始化在堆上，大小为 0x250（高版本为 0x290）。其中数据部分前 0x40 为 `counts` ，剩下的为 `entries` 结构。如果能控制这个堆块就可以控制整个 `tcache` 。
+

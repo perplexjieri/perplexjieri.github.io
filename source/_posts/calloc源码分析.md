@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/article-bg.png
-top_img: /img/article-bg.png
+cover: /img/cover-kurumi.png
+top_img: /img/cover-kurumi.png
 ---
 
 ### 1.这段代码的是libc中calloc的核心实现，它的作用是：分配内存+自动清零
@@ -155,3 +155,4 @@ if (p == oldtop && csz > oldtopsize)
 👉 **只清旧内存部分**
 
 🚀 再次减少 memset
+

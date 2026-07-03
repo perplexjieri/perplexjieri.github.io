@@ -18,6 +18,9 @@ avatar:
 cover:
   default_cover:
     - /img/article-bg.png
+    - /img/site-cover.jpg
+    - /img/cover-kurumi.png
+    - /img/cover-iso.jpg
 
 index_post_content:
   method: 1

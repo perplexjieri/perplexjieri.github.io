@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/article-bg.png
-top_img: /img/article-bg.png
+cover: /img/site-cover.jpg
+top_img: /img/site-cover.jpg
 ---
 
 ### 关键过程
@@ -92,6 +92,7 @@ top_img: /img/article-bg.png
 
   `checked_request2size (bytes, nb);` `/* 计算chunk_size */`
   
+
 
 
 

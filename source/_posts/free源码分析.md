@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/article-bg.png
-top_img: /img/article-bg.png
+cover: /img/site-cover.jpg
+top_img: /img/site-cover.jpg
 ---
 
 ### 形象的概括
@@ -291,4 +291,5 @@ free("/bin/sh")
 
 > ⚠️ 大量“指针操作 + 链表操作 + 不完全检查”  
 > → 成为堆利用（heap exploitation）的核心入口
+
 

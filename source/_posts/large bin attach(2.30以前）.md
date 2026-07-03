@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/article-bg.png
-top_img: /img/article-bg.png
+cover: /img/site-cover.jpg
+top_img: /img/site-cover.jpg
 ---
 
 # 一、初始状态（正常 large bin）
@@ -138,3 +138,4 @@ victim
 ③ 触发写：  
   
 TARGET->fd_nextsize = victim
+

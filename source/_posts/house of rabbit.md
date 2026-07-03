@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/article-bg.png
-top_img: /img/article-bg.png
+cover: /img/cover-kurumi.png
+top_img: /img/cover-kurumi.png
 ---
 
 ### 主要有两种攻击方式
@@ -50,5 +50,6 @@ top_img: /img/article-bg.png
 
 将 fast bin 中的 chunk 的 fd 指向 fake chunk。
 将 fake chunk 的 size 置1，是为了避免 malloc_consolidate 时与后面的 chunk 合并时 unlink 出错。因为 size 为 1 时查找的下一个地址相邻的 chunk 是自身。
+
 
 

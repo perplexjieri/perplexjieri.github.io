@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/article-bg.png
-top_img: /img/article-bg.png
+cover: /img/cover-kurumi.png
+top_img: /img/cover-kurumi.png
 ---
 
 通过修改size使两次free的同一块内存进入不同的entries
@@ -27,4 +27,5 @@ delete_chunk(1)
 add_chunk(0,0x18)
 add_chunk(0,0x18)
 edit_chunk(0,p64(libc.sym'__free'))
+
 

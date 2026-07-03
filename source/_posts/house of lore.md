@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/article-bg.png
-top_img: /img/article-bg.png
+cover: /img/cover-kurumi.png
+top_img: /img/cover-kurumi.png
 ---
 
 ## 1. 核心原理：Small Bin 的分配机制
@@ -63,3 +63,4 @@ top_img: /img/article-bg.png
 3. 触发安全检查：`if (bck->fd != victim)` $\rightarrow$ 即检查 `Fake_Chunk2->fd != Fake_Chunk1`。
     
 4. 因为我们提前在 `Fake_Chunk2->fd` 写入了 `Fake_Chunk1` 的地址，**条件不成立（相等），完美绕过检查！**
+
