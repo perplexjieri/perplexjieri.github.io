@@ -27,9 +27,7 @@ subtitle:
   enable: true
   effect: true
   sub:
-    - 蓝色信号已点亮
-    - 多彩 轻盈 明亮 的赛博次元
-    - perplex(pwner)
+    - never forget your begin
 
 inject:
   head:
