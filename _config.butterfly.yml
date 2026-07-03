@@ -7,7 +7,7 @@ tag_img: /img/site-cover.jpg
 category_img: /img/site-cover.jpg
 avatar:
   img: /img/site-avatar.png
-  effect: true
+  effect: false
 
 cover:
   default_cover:
@@ -17,13 +17,15 @@ subtitle:
   enable: true
   effect: true
   sub:
-    - 赛博空间已连接
-    - 漏洞 狩猎 渗透 记录
+    - 蓝色信号已点亮
+    - 多彩 轻盈 明亮 的赛博次元
     - perplex(pwner)
 
 inject:
   head:
     - <link rel="stylesheet" href="/css/cyberpunk.css">
+  bottom:
+    - <script src="/js/avatar-click-spin.js"></script>
 
 aside:
   card_author:

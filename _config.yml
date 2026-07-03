@@ -5,12 +5,11 @@
 # Site
 title: perplex(pwner)
 subtitle: '赛博空间记录站'
-description: 'perplex 的赛博朋克技术博客，记录漏洞、渗透、折腾与灵感。'
+description: 'perplex 的赛博动漫风博客，记录灵感、技术、日常与闪闪发光的想法。'
 keywords:
   - perplex
   - pwner
-  - 赛博朋克
-  - 网络安全
+  - 赛博动漫
   - 技术博客
 author: perplex
 language: zh-CN
