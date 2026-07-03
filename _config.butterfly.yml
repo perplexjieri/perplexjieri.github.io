@@ -7,10 +7,23 @@ tag_img: /img/site-cover.jpg
 category_img: /img/site-cover.jpg
 avatar:
   img: /img/site-avatar.png
+  effect: true
 
 cover:
   default_cover:
     - /img/article-bg.png
+
+subtitle:
+  enable: true
+  effect: true
+  sub:
+    - 赛博空间已连接
+    - 漏洞 狩猎 渗透 记录
+    - perplex(pwner)
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/cyberpunk.css">
 
 aside:
   card_author:

@@ -1,40 +1,48 @@
 ---
-title: Hello World
+title: 你好，世界
 cover: /img/article-bg.png
 top_img: /img/article-bg.png
+tags:
+  - 赛博日志
+  - 建站
+categories:
+  - 默认文章
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+欢迎来到我的站点。这里会记录折腾博客、学习安全、写一些赛博朋克风格的技术内容。
 
-## Quick Start
+## 这是第一篇文章
 
-### Create a new post
+如果你正在看到这篇文章，说明站点已经成功跑起来了，后面我会继续在这里更新：
 
-``` bash
-$ hexo new "My New Post"
-```
+- 建站记录
+- 漏洞学习
+- 渗透测试笔记
+- 一些灵感和随手日志
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+## 常用命令
 
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
+### 新建文章
 
 ``` bash
-$ hexo generate
+npx hexo new "文章标题"
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
+### 本地预览
 
 ``` bash
-$ hexo deploy
+npm run server
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+### 生成静态页面
+
+``` bash
+npm run build
+```
+
+### 推送上线
+
+``` bash
+git add .
+git commit -m "更新文章"
+git push
+```

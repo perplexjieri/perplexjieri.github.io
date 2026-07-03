@@ -1,0 +1,135 @@
+:root {
+  --cyber-bg: #060b16;
+  --cyber-bg-soft: rgba(8, 16, 32, 0.78);
+  --cyber-panel: rgba(10, 20, 36, 0.88);
+  --cyber-line: rgba(0, 255, 240, 0.26);
+  --cyber-cyan: #7df9ff;
+  --cyber-blue: #59d8ff;
+  --cyber-pink: #ff4fd8;
+  --cyber-red: #ff355e;
+  --cyber-text: #d9f7ff;
+  --cyber-muted: #90a8c3;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(255, 79, 216, 0.16), transparent 28%),
+    radial-gradient(circle at top right, rgba(89, 216, 255, 0.18), transparent 24%),
+    linear-gradient(135deg, #030712 0%, #07101f 52%, #090612 100%);
+  color: var(--cyber-text);
+}
+
+::selection {
+  background: rgba(125, 249, 255, 0.28);
+  color: #fff;
+}
+
+#page-header::before,
+#footer::before {
+  background: linear-gradient(180deg, rgba(3, 8, 20, 0.18), rgba(3, 8, 20, 0.72));
+}
+
+#page-header,
+#footer {
+  position: relative;
+}
+
+#nav {
+  background: rgba(2, 7, 18, 0.18);
+  backdrop-filter: blur(10px);
+}
+
+#site-title,
+.nav-site-title .site-name,
+#site-info .site-title,
+#post-info .post-title,
+.author-info-name {
+  color: #f4fbff !important;
+  text-shadow: 0 0 10px rgba(125, 249, 255, 0.45), 0 0 24px rgba(255, 79, 216, 0.18);
+}
+
+#site-subtitle,
+#subtitle,
+.author-info-description,
+.post-meta,
+#post-meta,
+.article-meta-wrap,
+.card-widget,
+.recent-post-info,
+.content,
+time,
+.headline {
+  color: var(--cyber-muted);
+}
+
+#recent-posts .recent-post-item,
+#aside-content .card-widget,
+#post,
+#archive,
+#page,
+.layout > div:first-child:not(.recent-posts) {
+  background: linear-gradient(180deg, rgba(7, 15, 28, 0.92), rgba(6, 10, 20, 0.88));
+  border: 1px solid var(--cyber-line);
+  box-shadow: 0 0 0 1px rgba(255, 79, 216, 0.06), 0 14px 32px rgba(0, 0, 0, 0.35);
+}
+
+#aside-content .card-widget,
+#post,
+#archive,
+#page {
+  backdrop-filter: blur(8px);
+}
+
+a,
+#site-name,
+.article-title,
+.card-archive-list-link,
+.tag-cloud-list a,
+#post a {
+  color: var(--cyber-cyan);
+}
+
+a:hover,
+.article-title:hover,
+#post a:hover {
+  color: var(--cyber-pink);
+}
+
+.post_cover img,
+.avatar-img img,
+#page-header {
+  filter: saturate(1.05) contrast(1.05);
+}
+
+.avatar-img img {
+  border: 2px solid rgba(125, 249, 255, 0.45);
+  box-shadow: 0 0 20px rgba(125, 249, 255, 0.18);
+}
+
+.recent-post-item,
+.card-widget,
+#post,
+#archive,
+#page {
+  border-radius: 18px;
+}
+
+blockquote {
+  border-left: 3px solid var(--cyber-pink);
+  background: rgba(255, 79, 216, 0.08);
+}
+
+code,
+pre {
+  background: rgba(0, 0, 0, 0.32) !important;
+}
+
+#footer {
+  background: rgba(2, 7, 18, 0.92);
+}
+
+.pagination-post .page-number.current,
+#pagination .page-number.current {
+  background: linear-gradient(90deg, var(--cyber-blue), var(--cyber-pink));
+  color: #08101d;
+}

@@ -3,13 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: perplex(pwner)
+subtitle: '赛博空间记录站'
+description: 'perplex 的赛博朋克技术博客，记录漏洞、渗透、折腾与灵感。'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+  - perplex
+  - pwner
+  - 赛博朋克
+  - 网络安全
+  - 技术博客
+author: perplex
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
