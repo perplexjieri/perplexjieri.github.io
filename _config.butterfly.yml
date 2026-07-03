@@ -1,5 +1,11 @@
 favicon: /img/favicon.ico
 
+menu:
+  首页: / || fas fa-house
+  文章: /archives/ || fas fa-box-archive
+  标签: /tags/ || fas fa-tags
+  关于我: /about/ || fas fa-user-astronaut
+
 default_top_img: /img/article-bg.png
 index_img: /img/site-cover.jpg
 archive_img: /img/site-cover.jpg
@@ -12,6 +18,10 @@ avatar:
 cover:
   default_cover:
     - /img/article-bg.png
+
+index_post_content:
+  method: 1
+  length: 180
 
 subtitle:
   enable: true
