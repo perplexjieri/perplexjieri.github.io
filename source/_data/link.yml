@@ -1,0 +1,7 @@
+- class_name: 常用链接
+  class_desc: 这里是当前站点的友链占位数据，后续可以直接替换成真实友链。
+  link_list:
+    - name: 待添加友链
+      link: https://example.com
+      avatar: /img/site-avatar.png
+      descr: 把这里替换成对方站点名称、地址和一句简介。

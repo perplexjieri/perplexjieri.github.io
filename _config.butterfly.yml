@@ -4,6 +4,7 @@ menu:
   首页: / || fas fa-house
   文章: /archives/ || fas fa-box-archive
   标签: /tags/ || fas fa-tags
+  友链: /link/ || fas fa-link
   关于我: /about/ || fas fa-user-astronaut
 
 default_top_img: /img/article-bg.png
