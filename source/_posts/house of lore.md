@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/cover-kurumi.png
-top_img: /img/cover-kurumi.png
+cover: /img/cover-kurumi.webp
+top_img: /img/cover-kurumi.webp
 ---
 
 ## 1. 核心原理：Small Bin 的分配机制

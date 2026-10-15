@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/cover-iso.jpg
-top_img: /img/cover-iso.jpg
+cover: /img/cover-iso.webp
+top_img: /img/cover-iso.webp
 ---
 
 劫持fast bin 链表中chunk的fd指针，把fd指针指向我们想要分配的地址处，从而控制一些关键数据，比如返回地址等 

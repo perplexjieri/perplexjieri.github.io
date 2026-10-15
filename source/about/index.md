@@ -1,7 +1,7 @@
 ---
 title: 关于我
 date: 2026-07-03 13:10:00
-top_img: /img/site-cover.jpg
+top_img: /img/site-cover.webp
 ---
 
 你好，我是 `perplex`。

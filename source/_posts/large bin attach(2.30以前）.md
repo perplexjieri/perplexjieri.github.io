@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/site-cover.jpg
-top_img: /img/site-cover.jpg
+cover: /img/site-cover.webp
+top_img: /img/site-cover.webp
 ---
 
 # 一、初始状态（正常 large bin）

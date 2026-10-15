@@ -3,5 +3,5 @@
   link_list:
     - name: 待添加友链
       link: https://example.com
-      avatar: /img/site-avatar.png
+      avatar: /img/site-avatar.webp
       descr: 把这里替换成对方站点名称、地址和一句简介。

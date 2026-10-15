@@ -2,7 +2,7 @@
 title: 友链
 date: 2026-07-17 10:50:00
 type: link
-top_img: /img/site-cover.jpg
+top_img: /img/site-cover.webp
 ---
 
 这里先接入了友链页面结构。

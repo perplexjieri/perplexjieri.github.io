@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/cover-kurumi.png
-top_img: /img/cover-kurumi.png
+cover: /img/cover-kurumi.webp
+top_img: /img/cover-kurumi.webp
 ---
 
 ### 主要有两种攻击方式

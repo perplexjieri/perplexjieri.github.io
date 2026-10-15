@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/article-bg.png
-top_img: /img/article-bg.png
+cover: /img/article-bg.webp
+top_img: /img/article-bg.webp
 ---
 
 # 绕过 tcache

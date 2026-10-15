@@ -7,21 +7,21 @@ menu:
   友链: /link/ || fas fa-link
   关于我: /about/ || fas fa-user-astronaut
 
-default_top_img: /img/article-bg.png
-index_img: /img/site-cover.jpg
-archive_img: /img/site-cover.jpg
-tag_img: /img/site-cover.jpg
-category_img: /img/site-cover.jpg
+default_top_img: /img/article-bg.webp
+index_img: /img/site-cover.webp
+archive_img: /img/site-cover.webp
+tag_img: /img/site-cover.webp
+category_img: /img/site-cover.webp
 avatar:
-  img: /img/site-avatar.png
+  img: /img/site-avatar.webp
   effect: false
 
 cover:
   default_cover:
-    - /img/article-bg.png
-    - /img/site-cover.jpg
-    - /img/cover-kurumi.png
-    - /img/cover-iso.jpg
+    - /img/article-bg.webp
+    - /img/site-cover.webp
+    - /img/cover-kurumi.webp
+    - /img/cover-iso.webp
 
 index_post_content:
   method: 1

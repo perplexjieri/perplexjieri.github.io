@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/cover-kurumi.png
-top_img: /img/cover-kurumi.png
+cover: /img/cover-kurumi.webp
+top_img: /img/cover-kurumi.webp
 ---
 
 ### 1.这段代码的是libc中calloc的核心实现，它的作用是：分配内存+自动清零

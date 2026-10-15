@@ -8,8 +8,8 @@ tags:
 categories:
   - Pwn学习记录
   - 堆相关
-cover: /img/site-cover.jpg
-top_img: /img/site-cover.jpg
+cover: /img/site-cover.webp
+top_img: /img/site-cover.webp
 ---
 
 很好，这一段就是**“新版本（glibc ≥ 2.30）Large Bin Attack 的核心利用方式”**，而且和你前面学的“旧版本”有一个本质变化：
